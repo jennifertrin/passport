@@ -13,5 +13,6 @@
   "version": "independent",
   "useWorkspaces": true,
   "stream": true,
-  "changelogPreset": "angular"
+  "changelogPreset": "angular",
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }

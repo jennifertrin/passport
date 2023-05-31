@@ -61,3 +61,8 @@ router.get("/brightid/information", (req: Request, res: Response): void => {
       : "iam/src/static/bright-id-template.html";
   res.sendFile(path.resolve(process.cwd(), staticPath));
 });
+
+router.get("/civicpass/getpass", (req: Request, res: Response): void => {
+  const staticPath = "https://demopass.civic.com/";
+  res.sendFile(path.resolve(process.cwd(), staticPath));
+});
